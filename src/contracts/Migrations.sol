@@ -1,6 +1,6 @@
-pragma solidity ^0.8.0;
+pragma solidity ^0.5.0;
 
-contract {
+contract Migrations {
     address public owner;
     uint public last_completed_migration;
 
@@ -9,7 +9,7 @@ contract {
     }
 
     modifier restricted() {
-        if (msg.owner = owner) _;
+        if (msg.sender == owner) _;
         // _; means continue with the function if the statements in the parenthesis execute to be true
     } 
 
