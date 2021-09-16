@@ -12,5 +12,6 @@ _DeFi applications aim to recreate traditional financial systems, such as banks 
 | Tech | Use |
 | ------ | ------ |
 | ReactJS | FrontEnd Development |
-| MetaMask |  Wallet System|
+| MetaMask |  Wallet System |
+| Solidity |  Smart Contracts |
 
